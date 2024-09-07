@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: sticky;
+  background-color: rgb(165, 158, 158);
+  z-index: 100%;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 30px;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: wheat;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links i {
+  margin-right: 10px;
+}
+
+.nav-links :hover {
+  color: orangered;
+}
+
+#Game {
+  background-color: #548687;
+  display: flex;
+  height: 100vh;
+  width: 100ph;
+  justify-content: center;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: rgba(10, 8, 8, 0.19) 0px 10px 20px, rgba(10, 8, 8, 0.19) 0px 10px 20px, rgba(19, 18, 18, 0.575) 0px 6px 6px;
+}
+
+.card-itms {
+  margin-top: 10px;
+  height: 30px;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-size: 8vmin;
+  color: #000000;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #1d232c;
+  color: #ffffff;
+  border-radius: 1rem;
+  border: none;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #1d232c;
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  border: none;
+  margin-top: 25px;
+}
+
+.card #new-btn:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.card #reset-btn:hover {
+  color: white;
+  background-color: orangered;
+}
+
+#msg {
+  color: #000000;
+  font-size: 5vmin;
+}
+
+.masage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+#new-btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: #1d232c;
+}
+
+.h1:hover {
+  color: blue;
+}
+
+li:hover {
+  color: rgb(0, 0, 0);
+
+}
+
+
+/* login page */
+#login {
+  display: flex;
+  margin-top: 20px;
+  height: 100vh;
+  width: 100ph;
+  justify-content: center;
+}
+
+.login-data {
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(10, 8, 8, 0.19) 0px 10px 20px, rgba(10, 8, 8, 0.19) 0px 10px 20px, rgba(19, 18, 18, 0.575) 0px 6px 6px;
+
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-data input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+
+}
+
+.form-data input {
+  width: 240px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+
+.form .btnn {
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.btnn:hover {
+  background: #fff;
+  color: #ff7200;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #ff7200;
+}
+
+.icon {
+  margin-top: 20px;
+
+}
+
+.icon i {
+  column-gap: 50px;
+  font-size: 30px;
+  padding-left: 20px;
+}

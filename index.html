@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="nav">
+    <h1 style="color: white;">Tic-Tac-Toe</h1>
+    <div class="nav-links">
+      <p class="nav1-link"><a href="#login" style="font-size: 20px;"><i
+            class="fa-solid fa-right-to-bracket"></i>Login</a></p>
+    </div>
+  </nav>
+
+  <section id="Game">
+    <div class="card">
+      <div class="card-itms">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button id="reset-btn"><b>Reset</b></button>
+        <button id="new-btn"><b>New Game</b></button>
+        <div class="masage hide">
+          <p id="msg">Winner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- login page -->
+  <section id="login">
+    <div class="login-data">
+      <div class="form">
+        <h1>login here</h1>
+
+        <form action="">
+          <div class="form-data">
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="form-data">
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <button class="btnn" onclick="update()"> login</button>
+          <p class="link">Don't have an account<br>
+            <a href="#">Sin up </a> here</a>
+          <div class="icon">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+      </div>
+    </div>
+    </form>
+  </section>
+  <script src="apply.js"></script>
+</body>
+
+</html>
