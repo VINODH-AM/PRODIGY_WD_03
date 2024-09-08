@@ -45,7 +45,7 @@
 
 .card {
   width: auto;
-  height: 600px;
+  height: auto;
   background-color: #ffffff;
   text-align: center;
   padding: 10px;
